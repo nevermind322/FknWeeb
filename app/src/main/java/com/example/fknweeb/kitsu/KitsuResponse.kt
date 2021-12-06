@@ -1,13 +1,13 @@
-package com.example.fknweeb
+package com.example.fknweeb.kitsu
 
 import android.os.Parcelable
+import com.example.fknweeb.KitsuData
 
-import com.squareup.moshi.JsonClass
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class KitsuResponse(
     val data: List<KitsuData>,
-    val links: Map<String, String>,
-    val meta: Map<String, Int>
+    val links: Map<String, String>?,
+    val meta: Map<String, Int>?
 ) : Parcelable

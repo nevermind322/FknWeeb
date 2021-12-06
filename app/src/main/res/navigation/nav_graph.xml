@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/SearchFragment">
+    app:startDestination="@id/StartFragment">
     <fragment
-        android:id="@+id/SearchFragment"
-        android:name="com.example.fknweeb.UI.SearchFragment"
+        android:id="@+id/StartFragment"
+        android:name="com.example.fknweeb.UI.StartFragment"
         android:label="fragment_search"
-        tools:layout="@layout/fragment_search" >
+        tools:layout="@layout/fragment_start" >
         <action
             android:id="@+id/action_searchFragment_to_animeInfoFragment"
             app:destination="@id/animeInfoFragment"

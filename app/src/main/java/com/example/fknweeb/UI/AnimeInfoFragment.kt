@@ -14,7 +14,7 @@ class AnimeInfoFragment : Fragment() {
 
     private val args by navArgs<AnimeInfoFragmentArgs>()
 
-    private lateinit var binding : FragmentAnimeInfoBinding
+    private lateinit var binding: FragmentAnimeInfoBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,8 +29,6 @@ class AnimeInfoFragment : Fragment() {
         binding = FragmentAnimeInfoBinding.bind(view)
         binding.detailTitle.text = args.animeArg.name
         binding.detailAnimePoster.load(args.animeArg.image)
-
-
     }
 
     companion object {

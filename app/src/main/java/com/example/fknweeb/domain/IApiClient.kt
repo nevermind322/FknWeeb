@@ -1,6 +1,9 @@
 package com.example.fknweeb.domain
 
-interface IApiClient {
-    suspend fun findAnimeByName(name: String) : AnimeInfo?
+import com.example.fknweeb.ApiResponse
 
+interface IApiClient {
+    suspend fun findAnimeByName(name: String) : ApiResponse
+
+    suspend fun loadTrendingAnime() : ApiResponse
 }

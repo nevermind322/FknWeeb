@@ -7,7 +7,9 @@
         <entry key="..\:/Android/FknWeeb/app/src/main/res/layout/anime_info.xml" value="0.264" />
         <entry key="..\:/Android/FknWeeb/app/src/main/res/layout/content_main.xml" value="0.2542991141219385" />
         <entry key="..\:/Android/FknWeeb/app/src/main/res/layout/fragment_anime_info.xml" value="0.6" />
-        <entry key="..\:/Android/FknWeeb/app/src/main/res/layout/fragment_search.xml" value="0.4" />
+        <entry key="..\:/Android/FknWeeb/app/src/main/res/layout/fragment_search.xml" value="0.40399652476107734" />
+        <entry key="..\:/Android/FknWeeb/app/src/main/res/layout/item_trending_anime.xml" value="0.2421875" />
+        <entry key="..\:/Android/FknWeeb/app/src/main/res/layout/start_fragment.xml" value="0.2421875" />
       </map>
     </option>
   </component>
